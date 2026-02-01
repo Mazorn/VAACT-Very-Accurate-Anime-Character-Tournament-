@@ -3,7 +3,7 @@ VAACT est une méta alternative conçu pour simuler au mieux possible les duels 
 
 # Comment L'installer ?
 
-	Pour installer ce pack de cartes pour EdoPro, téléchager ce fichier : [(Téléchager)](https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-/releases/download/Release/user_configs.json) "**user_configs.json**" et mettais le dans le dossier **ProjectIgnis/config**
+	Pour installer ce pack de cartes pour EdoPro, téléchager ce fichier : [(Download)](https://drive.google.com/drive/folders/1clwKhk4AEbB82l_qwlsbn5WnzCEkUObo?usp=sharing) [(Téléchager)](https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-/releases/download/Release/user_configs.json) "**user_configs.json**" et mettais le dans le dossier **ProjectIgnis/config**
 	
 	Ou si vous avez déjà un fichier à ce nom et à cet emplacement pour d'autre pack, ajouter les lignes suivantes avec un editeur de texte:
 		{
