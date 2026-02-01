@@ -43,5 +43,7 @@ Pour l'instant il n'y a que la vision des cartes qui fonctionne pour l'integrali
 ## Crédit
 
 -Les cartes prennent les slots de 910000000 à 910001144 et sont toutes répertorier dans "Custom"
+
+-Lien du github pour les [(decklists)](https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Deck)
 	
 -Lien vers le [(discord)](https://discord.gg/3urc3mh6Yp) du project IRL
