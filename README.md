@@ -7,34 +7,30 @@ VAACT est une méta alternative conçue pour simuler au mieux possible les duels
 	
 -Ou si vous avez déjà un fichier à ce nom et à cet emplacement pour d'autres packs, ajoutez les lignes suivantes avec un editeur de texte:
 
+	{
+	"repos": [
 		{
-		"repos": [
+			"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-",
+			"repo_name": "Vaact cards",
+			"repo_path": "./repositories/Vaact",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
 		{
-      "url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-",
-      "repo_name": "VAACT",
-      "repo_path": "./expansions",
-      "is_language": false,
-      "language": "",
-      "data_path": "",
-      "should_update": true,
-      "should_read": true
+			"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Deck",
+			"repo_name": "Vaact decks",
+			"repo_path": "./deck",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
 		}
-				]
-		}
-		{
-		"repos": [
-		{
-      "url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Deck",
-      "repo_name": "VAACT-Deck",
-      "repo_path": "./deck",
-      "is_language": false,
-      "language": "",
-      "data_path": "",
-      "should_update": true,
-      "should_read": true
-		}
-				]
-		}
+	],
+	"urls": [],
+	"servers": []
+	}
 
 ## Avancé du projet
 
