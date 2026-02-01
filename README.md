@@ -1,11 +1,11 @@
 # VAACT "Very Accurate Anime Character Tournament"
-VAACT est une méta alternative conçu pour simuler au mieux possible les duels dans l'animé Yu-Gi-Oh, le tout en équilibrant au mieux les différents decks des personnages. 
+VAACT est une méta alternative conçue pour simuler au mieux possible les duels dans l'animé Yu-Gi-Oh, le tout en équilibrant au mieux les différents decks des personnages. 
 
-## Comment L'installer ?
+## Comment l'installer ?
 
--Pour installer ce pack de cartes pour EdoPro, téléchager ce fichier : [(Téléchager)](https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-/releases/download/Release/user_configs.json) "**user_configs.json**" et mettais le dans le dossier **ProjectIgnis/config**
+-Pour installer ce pack de cartes pour EdoPro, téléchagez ce fichier : [(Téléchager)](https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-/releases/download/Release/user_configs.json) "**user_configs.json**" et mettez le dans le dossier **ProjectIgnis/config**
 	
--Ou si vous avez déjà un fichier à ce nom et à cet emplacement pour d'autre pack, ajouter les lignes suivantes avec un editeur de texte:
+-Ou si vous avez déjà un fichier à ce nom et à cet emplacement pour d'autres packs, ajoutez les lignes suivantes avec un editeur de texte:
 
 		{
 		"repos": [
@@ -38,7 +38,7 @@ VAACT est une méta alternative conçu pour simuler au mieux possible les duels 
 
 ## Avancé du projet
 
-Pour l'instant il n'y a que la vision des cartes qui fonctionne pour l'integralité de la saison 1 du tournoi. Certaine carte de Atem sont fonctionel mais la plupart des cartes ne fonctionne pas et arriverons dans le futur.
+Pour l'instant l'intégralité des cartes de la saison 1 du tournoi sont ajoutées. Certaine cartes du deck de Atem sont fonctionelles mais la plupart des cartes ne fonctionnent pas encore pas et seront ajoutées petit à petit.
 
 ## Crédit
 
