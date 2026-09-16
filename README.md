@@ -39,7 +39,39 @@ VAACT est une méta alternative conçue pour simuler au mieux possible les duels
  
 ## Avancé du projet
 
-Pour l'instant l'intégralité des cartes de la saison 1 du tournoi sont ajoutées. Certaine cartes du deck de Atem sont fonctionelles mais la plupart des cartes ne fonctionnent pas encore pas et seront ajoutées petit à petit.
+Atem : 30%
+
+Kaiba : 0%
+
+Joey : 0%
+
+Jaden : 0%
+
+Chad : 0%
+
+Zane : 0%
+
+Aster : 0%
+
+Yusei : 0%
+
+Jack : 0%
+
+Yuma : 0%
+
+Kite : 0%
+
+Shark : 0%
+
+Yuya : 0%
+
+Reiji : 0%
+
+Playmaker : 0%
+
+Revolver : 100%
+
+Merci de nous informer des éventuels bug rencontré pour pouvoir les corriger au plus vite.
 
 ## Crédit
 
