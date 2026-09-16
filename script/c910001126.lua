@@ -30,13 +30,13 @@ function s.initial_effect(c)
 	e2:SetOperation(s.desop)
 	c:RegisterEffect(e2)
 end
-s.listed_names={36668118} --"Boot Sector Launch"
+s.listed_names={910001101} --"Boot Sector Launch"
 s.listed_series={SET_ROKKET}
 function s.matfilter(c,scard,sumtype,tp)
 	return c:IsLevelBelow(4) and c:IsRace(RACE_DRAGON,scard,sumtype,tp)
 end
 function s.dthfilter(c)
-	return c:IsCode(36668118) and c:IsAbleToHand()
+	return c:IsCode(910001101) and c:IsAbleToHand()
 end
 function s.thtg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.IsExistingMatchingCard(s.dthfilter,tp,LOCATION_DECK,0,1,nil) end
