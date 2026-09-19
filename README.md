@@ -67,7 +67,7 @@ Yuya : 0%
 
 Reiji : 0%
 
-Playmaker : 0%
+Playmaker : 97%
 
 Revolver : 100%
 
