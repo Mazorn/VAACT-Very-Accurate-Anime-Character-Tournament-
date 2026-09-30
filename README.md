@@ -77,6 +77,8 @@ VAACT est une méta alternative conçue pour simuler au mieux possible les duels
 
 -  Pour voir apparaître les decklists il faut aller dans le dossier d'EdoPro et copier le contenu du dossier "Decks/VAACT" dans le dossier Deck.
 
+-  De plus pour voir les banlist elle se trouve dans le dossier "lflists/VAACT" 
+
  
 ## Avancé du projet
 
