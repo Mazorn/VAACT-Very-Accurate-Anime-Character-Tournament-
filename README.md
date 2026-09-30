@@ -8,29 +8,70 @@ VAACT est une méta alternative conçue pour simuler au mieux possible les duels
 -Ou si vous avez déjà un fichier à ce nom et à cet emplacement pour d'autres packs, ajoutez les lignes suivantes avec un editeur de texte:
 
 	{
-	  "repos": [
-	    {
-	      "url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-",
-	      "repo_name": "VAACT",
-	      "repo_path": "./expansions/VAACT",
-	      "is_language": false,
-	      "language": "",
-	      "data_path": "",
-	      "should_update": true,
-	      "should_read": true
-	    },
-	    {
-	      "url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Deck",
-	      "repo_name": "VAACT-Deck",
-	      "repo_path": "./deck/VAACT",
-	      "is_language": false,
-	      "language": "",
-	      "data_path": "",
-	      "should_update": true,
-	      "should_read": true
-	    }
-	  ]
+  	"repos": [
+		{
+		"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-",
+		"repo_name": "VAACT",
+		"repo_path": "./expansions/VAACT",
+		"is_language": false,
+		"language": "",
+		"data_path": "",
+		"should_update": true,
+		"should_read": true
+		},
+		{
+		"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Deck",
+		"repo_name": "VAACT-Deck",
+		"repo_path": "./deck/VAACT",
+		"is_language": false,
+		"language": "",
+		"data_path": "",
+		"should_update": true,
+		"should_read": true
+		},
+        {
+		"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Banlist",
+		"repo_name": "VAACT-Banlist",
+		"repo_path": "./repositories/lflists/VAACT",
+		"is_language": false,
+		"language": "",
+		"data_path": "",
+		"should_update": true,
+		"should_read": true
+		},
+        {
+		"url": "https://github.com/Mazorn/VAACT-Very-Accurate-Anime-Character-Tournament-Puzzle",
+		"repo_name": "VAACT-Puzzle",
+		"repo_path": "./puzzles/VAACT",
+		"is_language": false,
+		"language": "",
+		"data_path": "",
+		"should_update": true,
+		"should_read": true
+		},
+		{
+		"url": "https://github.com/kevinraphael95/VAACT-patch-fr",
+		"repo_name": "VAACT FR",
+		"repo_path": "./config/languages/Français",
+		"is_language": true,
+		"language": "Français",
+		"data_path": "",
+		"should_update": true,
+		"should_read": true
+		}
+  	],
+    	"servers": [
+  			{
+			"name": "VAACT",
+			"address": "146.59.225.202",
+			"duelport": 7911,
+			"roomaddress": "146.59.225.202",
+			"roomlistprotocol": "http",
+			"roomlistport": 7922
+		}
+	],
 	}
+
 
 - Dans tout les cas une fois EdoPro lancé cela téléchargera les cartes et decklist mise à jour afin de vous permettre de jouer.
 
