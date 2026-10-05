@@ -84,11 +84,11 @@ VAACT est une méta alternative conçue pour simuler au mieux possible les duels
 
 Atem : 30%
 
-Kaiba : 0%
+Kaiba : 10%
 
 Joey : 0%
 
-Jaden : 0%
+Jaden : 80%
 
 Chad : 0%
 
@@ -108,7 +108,7 @@ Shark : 0%
 
 Yuya : 0%
 
-Reiji : 0%
+Reiji : 60%
 
 Playmaker : 97%
 
