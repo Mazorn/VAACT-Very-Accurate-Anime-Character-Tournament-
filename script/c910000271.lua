@@ -1,0 +1,20 @@
+--N・フレア・スカラベ
+--Neo-Spacian Flare Scarab
+local s,id=GetID()
+function s.initial_effect(c)
+	--atk up
+	local e1=Effect.CreateEffect(c)
+	e1:SetDescription(aux.Stringid(id,0))
+	e1:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
+	e1:SetType(EFFECT_TYPE_SINGLE)
+	e1:SetRange(LOCATION_MZONE)
+	e1:SetCode(EFFECT_UPDATE_ATTACK)
+	e1:SetValue(s.val)
+	c:RegisterEffect(e1)
+end
+function s.val(e,c)
+return Duel.GetMatchingGroupCount(s.filter,0,LOCATION_ONFIELD,LOCATION_ONFIELD,nil)*400
+end
+function s.filter(c)
+return c:IsSpellTrap()
+end
