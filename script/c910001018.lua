@@ -25,7 +25,7 @@ function s.initial_effect(c)
 	e2:SetOperation(s.tkop)
 	c:RegisterEffect(e2)
 end
-s.listed_names={70950699}
+s.listed_names={910001163}
 function s.spcfilter(c,tp)
 	return c:IsControler(tp) and c:IsRace(RACE_CYBERSE)
 end
@@ -48,14 +48,14 @@ function s.tkcon(e,tp,eg,ep,ev,re,r,rp)
 end
 function s.tktg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
-		and Duel.IsPlayerCanSpecialSummonMonster(tp,id+1,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_EARTH) end
+		and Duel.IsPlayerCanSpecialSummonMonster(tp,910001163,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_EARTH) end
 	Duel.SetOperationInfo(0,CATEGORY_TOKEN,nil,1,0,0)
 	Duel.SetOperationInfo(0,CATEGORY_SPECIAL_SUMMON,nil,1,tp,0)
 end
 function s.tkop(e,tp,eg,ep,ev,re,r,rp)
 	if Duel.GetLocationCount(tp,LOCATION_MZONE)>0 
-		and Duel.IsPlayerCanSpecialSummonMonster(tp,id+1,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_EARTH) then
-		local token=Duel.CreateToken(tp,id+1)
+		and Duel.IsPlayerCanSpecialSummonMonster(tp,910001163,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_EARTH) then
+		local token=Duel.CreateToken(tp,910001163)
 		Duel.SpecialSummon(token,0,tp,tp,false,false,POS_FACEUP)
 	end
 end

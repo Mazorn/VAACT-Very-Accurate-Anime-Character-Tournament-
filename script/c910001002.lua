@@ -18,10 +18,10 @@ function s.initial_effect(c)
 	e2:SetCode(EVENT_SPSUMMON_SUCCESS)
 	c:RegisterEffect(e2)
 end
-s.listed_names={21830680}
+s.listed_names={910001161}
 function s.tktg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
-		and Duel.IsPlayerCanSpecialSummonMonster(tp,id+1,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_WIND) end
+		and Duel.IsPlayerCanSpecialSummonMonster(tp,910001161,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_WIND) end
 	local c=e:GetHandler()
 	Duel.SetOperationInfo(0,CATEGORY_SPECIAL_SUMMON,nil,1,0,0)
 	Duel.SetOperationInfo(0,CATEGORY_TOKEN,nil,1,0,0)
@@ -37,8 +37,8 @@ function s.tkop(e,tp,eg,ep,ev,re,r,rp)
 		e1:SetReset(RESET_EVENT|RESETS_STANDARD)
 		c:RegisterEffect(e1)
 		if not c:IsImmuneToEffect(e1) and Duel.GetLocationCount(tp,LOCATION_MZONE)>0
-			and Duel.IsPlayerCanSpecialSummonMonster(tp,id+1,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_WIND) then
-			local token=Duel.CreateToken(tp,id+1)
+			and Duel.IsPlayerCanSpecialSummonMonster(tp,910001161,0,TYPES_TOKEN,0,0,1,RACE_CYBERSE,ATTRIBUTE_WIND) then
+			local token=Duel.CreateToken(tp,910001161)
 			Duel.SpecialSummon(token,0,tp,tp,false,false,POS_FACEUP)
 		end
 	end
