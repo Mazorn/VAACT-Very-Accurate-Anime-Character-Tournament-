@@ -98,7 +98,7 @@ Aster : 0%
 
 Yusei : 0%
 
-Jack : 0%
+Jack : 90%
 
 Yuma : 0%
 
