@@ -39,7 +39,7 @@ function s.disfilter(c)
 return c:IsType(TYPE_SYNCHRO)
 end
 function s.discon(e,tp,eg,ep,ev,re,r,rp)
-return Duel.GetCurrentChain()==0 and eg:IsExists(s.disfilter,1,nil) s
+return Duel.GetCurrentChain()==0 and eg:IsExists(s.disfilter,1,nil)
 end
 function s.distg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return true end
